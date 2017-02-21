@@ -49,5 +49,5 @@ group :test do
   gem 'i18n-spec'
   gem 'shoulda-matchers', '<= 2.8.0'
   gem 'sqlite3', platforms: :mri
-  gem 'poltergeist'
+  gem 'poltergeist'                 
 end
