@@ -9,7 +9,6 @@ module ActiveAdminIntegrationSpecHelper
     ActiveAdmin.register(Post){ belongs_to :user, optional: true }
     reload_menus!
   end
-
   def reload_menus!
     ActiveAdmin.application.namespaces.each{|n| n.reset_menu! }
   end
