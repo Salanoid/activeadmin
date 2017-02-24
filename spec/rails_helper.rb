@@ -10,6 +10,7 @@ unless File.exists?(ENV['RAILS_ROOT'])
   system 'rake setup'   
 end
 
+
 require 'active_record'
 require 'active_admin'
 require 'devise'
