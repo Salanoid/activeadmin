@@ -14,3 +14,6 @@ AllCops:
   DisplayCopNames: false
 
   StyleGuideCopsOnly: false
+
+Style/TrailingWhitespace:
+  Enabled: true
